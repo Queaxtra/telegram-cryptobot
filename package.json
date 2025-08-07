@@ -1,0 +1,34 @@
+{
+  "name": "telegram-cryptobot",
+  "description": "A Telegram bot for tracking cryptocurrency prices with real-time notifications and percentage change calculations",
+  "author": "Queaxtra <fatih@etik.com>",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "type": "module",
+  "keywords": [
+    "telegram",
+    "bot",
+    "cryptocurrency",
+    "crypto",
+    "price-tracker",
+    "binance",
+    "trading",
+    "notifications",
+    "bitcoin",
+    "ethereum"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queaxtra/telegram-cryptobot.git"
+  },
+  "dependencies": {
+    "cron": "^4.3.3",
+    "dotenv": "^17.2.1",
+    "telegraf": "^4.16.3"
+  }
+}
